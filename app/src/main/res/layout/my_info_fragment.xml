@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:id="@+id/simple_text_user_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="nazywasz się: "
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#f57c00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/simple_text_user_name_tv"
+            android:fontFamily="sans-serif-thin"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/simple_text_user_id_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simple_text_user_name_tv"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:text="Twoje id:  "
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#f57c00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_id_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/simple_text_user_id_tv"
+            android:layout_toRightOf="@+id/simple_text_user_id_tv"
+            android:fontFamily="sans-serif-thin"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/simple_text_user_login_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simple_text_user_id_tv"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:text="Twój login:  "
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#f57c00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_login_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/simple_text_user_login_tv"
+            android:layout_toRightOf="@+id/simple_text_user_login_tv"
+            android:fontFamily="sans-serif-thin"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/simple_text_user_account_type_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simple_text_user_login_tv"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:text="typ konta:  "
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#f57c00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_account_type_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/simple_text_user_account_type_tv"
+            android:layout_toRightOf="@+id/simple_text_user_account_type_tv"
+            android:fontFamily="sans-serif-thin"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/simple_text_user_github_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simple_text_user_account_type_tv"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:text="adres github:  "
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#f57c00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_github_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/simple_text_user_github_address_tv"
+            android:layout_toRightOf="@+id/simple_text_user_github_address_tv"
+            android:fontFamily="sans-serif-thin"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/simple_text_email_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simple_text_user_github_address_tv"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:text="adres email:  "
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#f57c00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_email_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/simple_text_email_address_tv"
+            android:layout_toRightOf="@+id/simple_text_email_address_tv"
+            android:fontFamily="sans-serif-thin"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/simple_text_number_of_public_repozitories_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simple_text_email_address_tv"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:text="repozytoria publiczne:  "
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#f57c00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number_of_public_repozitories_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/simple_text_number_of_public_repozitories_tv"
+            android:layout_toRightOf="@+id/simple_text_number_of_public_repozitories_tv"
+            android:fontFamily="sans-serif-thin"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/simple_text_account_from_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simple_text_number_of_public_repozitories_tv"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:text="konto od:  "
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#f57c00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/account_from_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/simple_text_account_from_tv"
+            android:layout_toRightOf="@+id/simple_text_account_from_tv"
+            android:fontFamily="sans-serif-thin"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
